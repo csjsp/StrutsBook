@@ -26,8 +26,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <a href="Hello.jsp">Hello</a>
     <br>通配符
     <br>
-    <a href="AddUser">AddUser</a>
-    <a href="DelUser">DelUser</a>
-    <a href="ModifyUser">ModifyUser</a>
+    <a href="AddUser.action">AddUser</a>
+    <a href="DelUser.action">DelUser</a>
+    <a href="ModifyUser.action">ModifyUser</a>
   </body>
 </html>
