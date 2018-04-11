@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8" contentType="text/html;charset=utf-8"%>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -29,5 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <a href="AddUser.action">AddUser</a>
     <a href="DelUser.action">DelUser</a>
     <a href="ModifyUser.action">ModifyUser</a>
+    <br>   
+    <a href="AddComputer.action">AddComputer</a>
   </body>
 </html>
