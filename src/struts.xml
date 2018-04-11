@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package  name="hi" namespace="/" extends="struts-default">
+		<action name="world" class="action.HelloWorldAction">
+			<result name="SUCCESS">/World.jsp</result>
+		</action> 
+		<action name="*User" class="action.UserAction" method="{1}">
+			<result name="SUCCESS">ch2/{1}User.jsp</result>
+		</action>
+		<action name="*Computer" class="action.ComputerAction"  method="{1}">
+		   <result name="SUCCESS">ch2/{1}Computer.jsp</result>
+		</action>
+	</package>
+</struts>    
